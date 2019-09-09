@@ -1,0 +1,120 @@
+/*Page Accueil*/
+
+body{
+    background-color: white;
+}
+.navbar{
+    background-color: rgb(138, 117, 78);
+}
+.nav-link{
+    color: white;
+}
+.jum-index{/*jum=jumbotron*/
+    background-image: url(/images/tajine-fond.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 200px;
+}
+.dis-index{
+    margin-top: 200px;
+    background-color: #ffffff21;
+}
+
+.promo{
+    display: flex;
+}
+
+/*.card-img-top{
+    height: 230px;
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .card-img-top{
+        height: 270px;
+    }
+    .row{
+        display: block;
+    }
+}*/
+
+/*Page Menu*/
+
+
+.jumf-menu{/*jumf=jumbotron-fluid*/
+    background-image: url(/images/view.jpeg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.menu h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: rgba(132, 53, 14, 0.59);
+}
+.menu h2{
+    background-color: rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+}
+
+/*Page Galerie*/
+
+.jumf-galerie{
+    background-image: url(/images/view.jpeg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.galerie-header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: rgba(132, 53, 14, 0.59);
+}
+}
+.cont-galerie{
+    margin-top: 200px;
+}
+
+.galerie-main img{
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+@media screen and (max-width: 767px) {
+    .galerie-main img{
+       margin-right: 0;
+       margin-left: 100%;
+    }
+    
+}
+
+/*Page infos*/
+.jumf-infos{
+    background-image: url(/images/view.jpeg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.infos-header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: rgba(132, 53, 14, 0.59);
+
+}
+
+
+
+/*Page Contact*/
+
+.jumf-contact{
+    background-image: url(/images/view.jpeg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.contact-header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: rgba(132, 53, 14, 0.59);
+
+}
+.choice-bout{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
